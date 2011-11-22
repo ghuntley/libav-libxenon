@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="79">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df name="avplayer" root="Z:/xenon/share/avplayer">
+      <df name="build">
+      </df>
+      <df name="lib">
+      </df>
+      <df name="source">
+        <df name="hlsl">
+          <in>yuv_ps.h</in>
+          <in>yuv_vs.h</in>
+        </df>
+        <df name="httpd">
+          <df name="http_files">
+          </df>
+          <in>fsdata.c</in>
+          <in>fsdata.h</in>
+          <in>httpd.c</in>
+          <in>httpd.h</in>
+          <in>screen.cpp</in>
+          <in>tftp.c</in>
+          <in>tftp.h</in>
+          <in>vfs.c</in>
+          <in>vfs.h</in>
+        </df>
+        <in>main.c</in>
+      </df>
+      <df name="source - Copie">
+        <df name="hlsl">
+          <in>yuv_ps.h</in>
+          <in>yuv_vs.h</in>
+        </df>
+        <df name="httpd">
+          <df name="http_files">
+          </df>
+          <in>fsdata.c</in>
+          <in>fsdata.h</in>
+          <in>httpd.c</in>
+          <in>httpd.h</in>
+          <in>screen.cpp</in>
+          <in>tftp.c</in>
+          <in>tftp.h</in>
+          <in>vfs.c</in>
+          <in>vfs.h</in>
+        </df>
+        <in>Lib_ffmpeg.h</in>
+        <in>audio.cpp</in>
+        <in>audio.h</in>
+        <in>audio_thread.cpp</in>
+        <in>display.cpp</in>
+        <in>display.h</in>
+        <in>display_thread.cpp</in>
+        <in>libxenon_miss.c</in>
+        <in>main.cpp</in>
+        <in>player.h</in>
+        <in>shader.h</in>
+        <in>stdafx.h</in>
+        <in>stdint.h</in>
+        <in>thread.cpp</in>
+        <in>winsock_miss.h</in>
+      </df>
+      <df name="source__">
+        <df name="hlsl">
+          <in>yuv_ps.h</in>
+          <in>yuv_vs.h</in>
+        </df>
+        <df name="httpd">
+          <df name="http_files">
+          </df>
+          <in>fsdata.c</in>
+          <in>fsdata.h</in>
+          <in>httpd.c</in>
+          <in>httpd.h</in>
+          <in>screen.cpp</in>
+          <in>tftp.c</in>
+          <in>tftp.h</in>
+          <in>vfs.c</in>
+          <in>vfs.h</in>
+        </df>
+        <in>main.cpp</in>
+        <in>miss.c</in>
+        <in>video.cpp</in>
+        <in>video.h</in>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Z:/xenon/share/avplayer/Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>Z:/xenon/share/avplayer</Elem>
+  </sourceRootList>
+  <projectmakefile>Z:/xenon/share/avplayer/Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>libxenon|GNU</compilerSet>
+      </toolsSet>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>Z:/xenon/share/avplayer</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile run</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+          <cTool>
+            <incDir>
+              <pElem>Z:/xenon/share/include</pElem>
+            </incDir>
+          </cTool>
+          <ccTool>
+            <incDir>
+              <pElem>source/httpd</pElem>
+              <pElem>Z:/xenon/share/include</pElem>
+            </incDir>
+          </ccTool>
+        </makeTool>
+      </makefileType>
+    </conf>
+  </confs>
+</configurationDescriptor>
